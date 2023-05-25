@@ -1,0 +1,53 @@
+{
+    "https://github.com/pybind/pybind11.git": {
+        "branch": "v2.9.2-patched",
+        "bundle": "ext/pybind11.bundle",
+        "targets": {
+            "./include/": [
+                "pybind11-v292p.2"
+            ],
+            "./README.rst" : [
+                "ext/pybind11.rst"
+            ],
+            "./LICENSE": [
+                "ext/LICENSE.pybind11"
+            ]
+        },
+        "vcs": "git"
+    },
+    "https://github.com/adishavit/argh.git": {
+        "branch": "v1.3.2-forked",
+        "bundle": "ext/argh.bundle",
+        "targets": {
+            "./argh.h": [
+                "argh.hpp"
+            ],
+            "./README.md": [
+                "ext/argh.md"
+            ],
+            "./LICENSE": [
+                "ext/LICENSE.argh"
+            ]
+        },
+        "vcs": "git"
+    },
+    "https://github.com/agauniyal/rang.git": {
+        "branch": "v3.2-forked",
+        "bundle": "ext/rang.bundle",
+        "targets": {
+            "./include/rang.hpp": [
+                "rang.hpp"
+            ],
+            "./rangwin32.cpp": [
+                "rangwin32.cpp"
+            ],
+            "./README.md": [
+                "ext/rang.md"
+            ],
+            "./LICENSE": [
+                "ext/LICENSE.rang"
+            ]
+        },
+        "vcs": "git"
+    }
+}
