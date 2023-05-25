@@ -4,7 +4,7 @@
         "bundle": "ext/pybind11.bundle",
         "targets": {
             "./include/": [
-                "pybind11-v292p.2"
+                "pybind11-v2.9p.1"
             ],
             "./README.rst" : [
                 "ext/pybind11.rst"
